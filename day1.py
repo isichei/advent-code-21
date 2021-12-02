@@ -27,6 +27,3 @@ if __name__ == "__main__":
     for d in Direction:
         stats[d.name] = sum([1 if direction == d else 0 for direction in directions])
     print(stats)
-
-            
-    
